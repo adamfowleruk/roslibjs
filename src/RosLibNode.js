@@ -10,11 +10,9 @@
  * var ros = new ROSLIB.Ros(...);
  * Now use the same as you would in the browser
  */
-module.exports = function() {
-  return ROSLIB;
-};
 
-var EventEmitter2 = require("eventemitter2"); // direct import as eventemitter2 is a node.js module also - TODO Test direct import works
+
+var EventEmitter2 = require("eventemitter2").EventEmitter2; // direct import as eventemitter2 is a node.js module also - TODO Test direct import works
 var ws = require("nodejs-websocket");
 
 /**

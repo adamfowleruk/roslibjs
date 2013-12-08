@@ -11,7 +11,7 @@
  * START RosLibNode-override.js
  */
  
- 
+module.exports = ROSLIB;
 
 /*
  * END RosLibNode-override.js
